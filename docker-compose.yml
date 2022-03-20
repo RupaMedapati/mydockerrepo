@@ -1,12 +1,12 @@
 version: '3'
 services:
- pythonApp:
+ pythonapp:
    build:
      context: ./pythonApp
    image: pythonApp
    ports:
      - 8081:5000
- pythonApp1:
+ pythonapp1:
    build:
      context: ./pythonApp1
    image: pythonApp1
